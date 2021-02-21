@@ -1,0 +1,183 @@
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0px;
+  }
+
+  20% {
+    left: 0px;
+  }
+
+  25% {
+    left: -950px;
+  }
+
+  45% {
+    left: -950px;
+  }
+
+  50% {
+    left: -1900px;
+  }
+
+  70% {
+    left: -1900px;
+  }
+
+  75% {
+    left: -2850px;
+  }
+}
+
+#add {
+  overflow: hidden;
+  width: 950px;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+img {
+  height: 300px;
+  width: 950px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  background: black;
+  color: white;
+  width: 150px;
+  float: left;
+  border: 1px solid white;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+ul ul ul {
+  margin-left: 150px;
+  position: absolute;
+  top: 0;
+}
+#sliderbox {
+  position: relative;
+  width: 4000px;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#sliderbox img {
+  float: left;
+}
+
+#div1 {
+  width: auto;
+  height: 700px;
+  background-color: antiquewhite;
+}
+#div2 {
+  width: auto;
+  height: 150px;
+  background-color: black;
+  margin-left: 5px;
+}
+p {
+  font-size: 30pt;
+  color: floralwhite;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.main {
+  height: 90px;
+  width: 150px;
+  float: left;
+  margin-bottom: 20px;
+  border: 2px dotted black;
+  margin-left: 20px;
+  margin-top: 2px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+/* #add {
+  overflow: hidden;
+  width: 950px;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+img {
+  height: 300px;
+  width: 950px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  background: black;
+  color: white;
+  width: 150px;
+  float: left;
+  border: 1px solid white;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+ul ul ul {
+  margin-left: 150;
+  position: absolute;
+  top: 0;
+} */

@@ -1,0 +1,42 @@
+   @keyframes example {
+    0%   {background-color: red;}
+    100%  {background-color: yellow;}
+    
+}
+        #div1{
+            width:auto;
+            height:700px;
+            background:white;
+        }
+        #div2{
+            width:auto;
+            height:100px;
+            background: black;
+            margin-left: 5px;
+        }
+        p{
+            font-size: 30pt;
+            color: floralwhite;
+            float:left;
+            margin-top: 20px;
+            margin-left: 30px;
+            
+        }
+        .main{
+            height: 90px;
+            width: 150px;
+            float:left;
+            margin-bottom: 20px;
+            border:2px dotted black;
+            margin-left: 20px;
+            margin-top: 2px;
+        
+            animation-name: example;
+    animation-duration: 4s;
+             animation-iteration-count: infinite;
+                        
+
+             animation-iteration-count: infinite;
+            
+            
+        }
